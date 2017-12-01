@@ -1,0 +1,109 @@
+@media all and (max-width: 880px) {
+    .fixies,
+    .cruisers {
+        float: none;
+        width: 100%
+    }
+    /*.desktopImg {
+            display: none
+        }
+        .mobileImg {
+            display: block
+        }*/
+    .block2 ul {
+        display: block;
+        text-align: center;
+        padding: 0px
+    }
+}
+
+@media all and (max-width: 732px) {
+    .logo i {
+        display: inline-block;
+        color: white;
+    }
+    .extras {
+        width: 100%;
+        height: 310px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-left: -50%;
+        margin-top: -155px;
+        font-family: 'Economica', sans-serif;
+    }
+    .policy,
+    .bikees,
+    .bikees ul,
+    .form {
+        float: none;
+        width: 100%
+    }
+    /*
+        .logo img {
+            width: 144px;
+            height: 36px;
+            padding: 25px 0px 26px 15px;
+        }
+        .search i {
+            font-size: 2.1em;
+            padding: 26px 18px 26px 0px;
+        }
+        */
+    footer {
+        text-align: center
+    }
+    .block1,
+    .block2,
+    .block3 {
+        margin: 0px 30px;
+        padding: 30px 0px;
+    }
+    .block3 {
+        padding-bottom: 30px
+    }
+    .block2 {
+        border-right: none;
+        border-left: none;
+        border-top: solid #4d5362 1px;
+        border-bottom: solid #4d5362 1px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .extras {
+        width: 100%;
+        height: 230px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-left: -50%;
+        margin-top: -125px;
+        font-family: 'Economica', sans-serif;
+    }
+    .extras h1 {
+        font-size: 3rem
+    }
+    .extras p {
+        font-size: 2rem
+    }
+    .extras a {
+        padding: 20px 30px
+    }
+}
+
+@media all and (max-width: 400px) {
+    .logo i {
+        display: inline-block;
+        color: white;
+        font-size: 1em
+    }
+    .logo img {
+        width: 80px;
+        margin: 15px 0px 17px 20px;
+    }
+    .search i {
+        margin: 17px 20px 12px 0px;
+        font-size: 1rem
+    }
+}

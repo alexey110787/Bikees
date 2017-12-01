@@ -1,0 +1,358 @@
+@font-face {
+    font-family: 'Dymaxion Script';
+    src: url(fonts/DymaxionScript.ttf)
+}
+
+@font-face {
+    font-family: 'High Tide';
+    src: url(fonts/HighTide.otf)
+}
+@font-face {
+    font-family: 'Odin Rounded';
+    src: url(fonts/Odin Rounded - Regular.otf)
+}
+@font-face {
+    font-family: 'Magneto';
+    src: url(fonts/MAGNETOB.otf)
+}
+
+
+html,
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+    /*font-size: 100%;*/
+}
+
+.mobileImg {
+    display: none
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.logo i {
+    display: none;
+    text-align: left
+}
+
+.logo,
+.search {
+    width: 50%;
+    float: left
+}
+
+.logo img {
+    /*padding: 63px 0px 52px 85px*/
+    margin: 30px 0px 25px 42px
+}
+
+.search {
+    text-align: right;
+    color: white
+}
+
+.search i {
+    /*padding: 63px 85px 52px 0px;*/
+    margin: 35px 42px 25px 0px;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+}
+
+.search i:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+main img {
+    width: 100%;
+}
+
+.fixies,
+.cruisers {
+    width: 50%;
+    float: left;
+    position: relative;
+    color: white
+}
+
+.block-blue,
+.block-purple {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.block-blue {
+    background-image: linear-gradient(0deg, rgba(72, 176, 176, 0.7), rgba(64, 92, 170, 0.7));
+}
+
+.block-blue .extras h1 {
+    font-family: 'High Tide', 'Stalinist One', cursive;
+}
+
+.block-purple .extras h1 {
+    font-family: 'Dymaxion Script', 'Magneto', cursive;
+}
+
+.extras {
+    /*width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50%;
+    margin-top: -250px;
+    font-family: 'Economica', sans-serif*/
+    width: 100%;
+    height: 310px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -50%;
+    margin-top: -155px;
+    font-family: 'Economica', sans-serif;
+}
+
+.extras h1 {
+    /*margin-bottom: 40px;
+    font-size: 6.6em*/
+    margin-bottom: 0.5em;
+    font-size: 4rem;
+}
+
+.extras p {
+    /*margin-bottom: 198px;
+    font-size: 3.5em*/
+    margin-bottom: 2em;
+    font-size: 3rem;
+}
+
+.extras a {
+    /*font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: white;
+    padding: 50px 56px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.6em;
+    font-size: 1.7em;
+    */
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: white;
+    padding: 25px 28px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.3em;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+}
+
+.extras a:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.block-purple {
+    background-image: linear-gradient(0deg, rgba(194, 150, 197, 0.7), rgba(131, 87, 163, 0.7));
+}
+
+footer {
+    /*background-color: #595f6f;
+    font-size: 1.5em;
+    font-family: 'Odin Rounded', 'Khula', sans-serif;
+    color: #c3c3c3*/
+    background-color: #595f6f;
+    font-size: 1rem;
+    font-family: 'Odin Rounded', 'Khula', sans-serif;
+    color: #c3c3c3;
+}
+
+footer a {
+    text-decoration: none;
+    color: #c3c3c3
+}
+
+footer a:hover {
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.policy,
+.bikees,
+.form {
+    float: left;
+    box-sizing: border-box
+}
+
+.policy {
+    width: 50%;
+}
+
+.policy img,
+.policy p {
+    /*padding-bottom: 65px*/
+    padding-bottom: 2em;
+}
+
+.policy p:nth-child(3) {
+    /*padding-bottom: 0px*/
+    padding-bottom: 3em;
+}
+
+.policy p:last-of-type {
+    padding-bottom: 0px
+}
+
+.livraison {
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 5px;
+}
+
+.copy {
+    color: white
+}
+
+.block1 {
+    /*margin: 65px 83px;*/
+    margin: 32px 41px;
+}
+
+
+/*.block1 p {
+    padding-right: 83px
+}*/
+
+.bikees {
+    width: 28%;
+}
+
+.block2 {
+    /*margin: 65px 0px 65px 0px;
+    max-width: 534px;
+    padding: 135px 137px;
+    border-right: solid #4d5362 1px;
+    border-left: solid #4d5362 1px;*/
+    /*margin: 32px 0px 32px 0px;
+    max-width: 534px;
+    padding: 70px 80px;
+    border-right: solid #4d5362 1px;
+    border-left: solid #4d5362 1px;*/
+    text-align: center;
+    margin: 32px 0px 32px 0px;
+    padding: 70px 0px;
+    border-right: solid #4d5362 1px;
+    border-left: solid #4d5362 1px;
+}
+
+.block2 ul {
+    /*float: left;
+    list-style: none*/
+    display: inline-block;
+    list-style: none;
+    padding: 0px 8%;
+    text-align: left;
+}
+
+
+/*.block2 ul:last-of-type {
+    float: right
+}*/
+
+.block2 ul li {
+    /*line-height: 2.5em;*/
+    line-height: 2em;
+}
+
+.form {
+    width: 22%
+}
+
+.block3 {
+    /*padding-top: 122px;
+    text-align: center;
+    color: white*/
+    padding-top: 60px;
+    text-align: center;
+    color: white
+}
+
+.block3 p {
+    /*font-size: 1.5em;
+    padding-bottom: 28px*/
+    font-size: 1.2rem;
+    padding: 0px 0.5em 0.5em;
+}
+
+input {
+    /*width: 85%;
+    text-align: center;
+    padding: 41px 50px;
+    border-radius: 0.6em;
+    border: none;
+    color: #aeb1b8;
+    background-color: #5d6271;
+    font-size: 1em;
+    font-style: italic;*/
+    width: 85%;
+    text-align: center;
+    padding: 20px 25px;
+    border-radius: 0.3em;
+    border: none;
+    color: #aeb1b8;
+    background-color: #5d6271;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+::-webkit-input-placeholder {
+    color: #aeb1b8;
+}
+
+input[placeholder] {
+    text-overflow: ellipsis;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+.block3 li {
+    /*margin: 5%;
+    display: inline;
+    color: #a8abb3;
+    font-size: 2.4em*/
+    margin: 5%;
+    display: inline;
+    color: #a8abb3;
+    font-size: 2rem;
+}
+
+.block3 ul {
+    /*padding-top: 87px*/
+    padding-top: 2em;
+}
